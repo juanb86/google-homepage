@@ -1,0 +1,29 @@
+.headerL {
+    padding: 0px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.headerL a {
+    color: grey;
+    margin: 10px;
+}
+.headerR {
+    padding: 0px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.headerR a {
+    color: grey;
+    margin: 10px;
+}
+.centerStuff {
+    padding: 20px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    margin: -70px 0 0 -170px;
+}
