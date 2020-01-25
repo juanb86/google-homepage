@@ -11,25 +11,38 @@
 
 <body>
 
-    <div class="headerL">
+    <div class="navVarTop">
         <a href="search results.html">Store</a>
         <a href="search results.html">About</a>
 
-    </div>
-
-    <div class="headerR">
-        <a href="search results.html">Gmail</a>
-        <a href="search results.html">Images</a>
+        <a id="right" href="search results.html">Gmail</a>
+        <a id="right" href="search results.html">Images</a>
 
     </div>
+
     <div class="centerStuff">
         <img id=gLogo src="images/googlelogo.png" width="272" height="92" alt="Google logo">
 
-        <form action="processingscript.php" method="GET">
+        <form id="search" action="processingscript.php" method="GET">
 
-            <input name="name" id="name">
+            <input type="search" name="googlesearch" id="googlesearch" size="32">
+            <br>
+            <input type="submit" name="Google Search" value="Google Search">
+            <input type="submit" name="I'm feeling lucky" value="I'm feeling lucky">
 
         </form>
+
+    </div>
+
+    <div class="navVarBot">
+        <a href="search results.html">Advertising</a>
+        <a href="search results.html">Business</a>
+        <a href="search results.html">How Search works</a>
+        
+        <a id="right" href="search results.html">Privacy</a>
+        <a id="right" href="search results.html">Terms</a>
+        <a id="right" href="search results.html">Settings</a>
+        
 
     </div>
 
