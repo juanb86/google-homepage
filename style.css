@@ -8,14 +8,14 @@ body {
     overflow: hidden;
 }
 
-/* Style the topnav links */
+/* Style the top navigation bar links */
 
 .navVarTop a {
     float: left;
     display: block;
     color: grey;
     text-align: center;
-    padding: 16px 16px;
+    padding: 8px 16px;
     text-decoration: none;
 }
 
@@ -23,27 +23,55 @@ body {
     float: right;
 }
 
-/* Change color on hover */
+/* Add underline on hover */
 
 .navVarTop a:hover {
     text-decoration: underline;
 }
 
 .centerStuff {
-    padding: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: -70px 0 0 -170px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
 }
 
-/* Style the top navigation bar */
+.centerStuff img {
+    display: block;
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centerStuff input {
+    margin-top: 5%;
+    width: 100%;
+}
+
+.buttons {
+    text-align: center;
+    margin: auto;
+}
+
+#button {
+    width: 15%;
+    height: 35px;
+    background-color: rgb(209, 209, 209);
+    border: none;
+    border-radius: 4px;
+}
+
+/* Style the bot navigation bar */
 
 .navVarBot {
     overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border: 1px solid #e7e7e7;
 }
 
-/* Style the topnav links */
+/* Style the bot navigation bar links */
 
 .navVarBot a {
     float: left;
@@ -54,8 +82,7 @@ body {
     text-decoration: none;
 }
 
-
-/* Change color on hover */
+/* Add underline on hover */
 
 .navVarBot a:hover {
     text-decoration: underline;
