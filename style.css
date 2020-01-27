@@ -31,7 +31,7 @@ body {
 
 .centerStuff {
     margin: auto;
-    width: 50%;
+    width: 40%;
     padding: 10px;
 }
 
@@ -45,6 +45,16 @@ body {
 .centerStuff input {
     margin-top: 5%;
     width: 100%;
+    background-image: url('images/google-mglass.png');
+    background-size: 25px;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    padding: 12px 20px 12px 40px;
 }
 
 .buttons {
@@ -55,7 +65,7 @@ body {
 #button {
     width: 15%;
     height: 35px;
-    background-color: rgb(209, 209, 209);
+    background-color: rgb(228, 226, 226);
     border: none;
     border-radius: 4px;
 }
